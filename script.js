@@ -1,6 +1,6 @@
 // Script.js
 
-import { WsTransport } from "@ndn/ws-transport";
+import { WsTransport } from "https://ndnts-nightly.ndn.today/ws-transport.tgz";
 async function main() {
   const face = await WsTransport.createFace({}, "wss://hmbe.ndntel-u.my.id:9696");
   face.addRoute(new Name("/"));

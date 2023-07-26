@@ -1,6 +1,6 @@
-import { AltUri, Interest, Name } from "@ndn/packet";
-import { WsTransport } from "@ndn/ws-transport";
-import { Endpoint } from "@ndn/endpoint";
+import { AltUri, Interest, Name } from "https://ndnts-nightly.ndn.today/endpoint.tgz";
+import { WsTransport } from "https://ndnts-nightly.ndn.today/ws-transport.tgz";
+import { Endpoint } from "https://ndnts-nightly.ndn.today/endpoint.tgz";
 import firebase from "./firebase-config";
 import {getStorage, ref, uploadBytesResumable, getDownloadURL, uploadBytes} from "firebase/storage"
 
