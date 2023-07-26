@@ -1,0 +1,16 @@
+{
+  "name": "ndn-hyper-monitor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ndn/endpoint": "https://ndnts-nightly.ndn.today/endpoint.tgz",
+    "@ndn/packet": "https://ndnts-nightly.ndn.today/packet.tgz",
+    "@ndn/ws-transport": "https://ndnts-nightly.ndn.today/ws-transport.tgz"
+  }
+}
