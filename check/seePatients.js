@@ -1,6 +1,6 @@
-import { Interest, Name } from "@ndn/packet";
-import{ WsTransport } from "@ndn/ws-transport";
-import { Endpoint } from "@ndn/endpoint";
+import { Interest, Name } from "../@ndn/packet"; 
+import{ WsTransport } from "../@ndn/ws-transport";
+import { Endpoint } from "../@ndn/endpoint";
 
 async function seeAll(evt) { //membuat fungsi async
   evt.preventDefault();
