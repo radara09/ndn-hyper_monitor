@@ -12,6 +12,7 @@
   "dependencies": {
     "@ndn/endpoint": "https://ndnts-nightly.ndn.today/endpoint.tgz",
     "@ndn/packet": "https://ndnts-nightly.ndn.today/packet.tgz",
-    "@ndn/ws-transport": "https://ndnts-nightly.ndn.today/ws-transport.tgz"
+    "@ndn/ws-transport": "https://ndnts-nightly.ndn.today/ws-transport.tgz",
+    "firebase": "^10.1.0"
   }
 }
