@@ -96,7 +96,7 @@
       firebase.auth().signInWithEmailAndPassword(email, password)
         .then((userCredential) => {
           // Login berhasil, redirect ke halaman cekriwayat.html atau lakukan tindakan yang sesuai
-          window.location.href = "check/seePatients.html";
+          window.location.href = "seePatients.html";
         })
         .catch((error) => {
           // Login gagal, tampilkan pesan error
